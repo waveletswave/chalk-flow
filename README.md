@@ -108,3 +108,7 @@ from ch03_tools import flow_divergence
 
 Kundu, P. K., Cohen, I. M., & Dowling, D. R. (2016). *Fluid Mechanics* (6th ed.). Academic Press.
 The textbook PDF is not included in this repository. The research papers behind each application are listed in the references of the study guide in `guide/`.
+
+## Acknowledgements
+
+The study guide and the chapter notebooks, tools and tests in this repository were developed with assistance from Claude, an AI assistant made by Anthropic.
