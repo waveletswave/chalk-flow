@@ -8,6 +8,7 @@ Study notes, reusable Python tools and automated checks for Appendix B, "Mathema
 
 | Chapter | Topic | Folder | Status |
 |---|---|---|---|
+| 0 | Warm-up: worked solutions to the ten-minute diagnostic | `ch00_warmup/` | Done |
 | 1 | Partial and total derivatives, material derivative, method of characteristics | `ch01_derivatives/` | Done |
 | 2 | Changing independent variables, moving frames, similarity variables | `ch02_change_of_variables/` | Done |
 | 3 | Vector calculus and integral theorems | `ch03_vector_calculus/` | Done |
@@ -17,6 +18,11 @@ Study notes, reusable Python tools and automated checks for Appendix B, "Mathema
 | 7 | Capstone: shoreline instability under high-angle waves | `ch07_capstone/` | Done |
 
 ## What is inside
+
+### Warm-up: `ch00_warmup/`
+
+- **Contents:** step-by-step solutions to the ten warm-up questions at the start of the study guide, each with the intuition, the derivation and a SymPy or NumPy check
+- **Figures:** [moving observers](ch00_warmup/figures/ch00_moving_observers.png), [delta function](ch00_warmup/figures/ch00_delta.png), [vortex vane](ch00_warmup/figures/ch00_vortex_vane.png)
 
 ### Chapter 1: `ch01_derivatives/`
 
@@ -63,6 +69,7 @@ Study notes, reusable Python tools and automated checks for Appendix B, "Mathema
 ## Repository layout
 
 - `guide/`: the study guide (LaTeX source and PDF)
+- `ch00_warmup/`: worked solutions to the warm-up diagnostic (`ch00_notes.ipynb` and `figures/`)
 - `chXX_*/`: one folder per chapter, each containing
   - `chXX_notes.ipynb`: notes, derivations, code and figures
   - `chXX_tools.py`: reusable functions, with docstrings and units
